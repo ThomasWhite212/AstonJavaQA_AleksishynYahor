@@ -9,6 +9,5 @@ public class Task_9 {
     public static boolean isLeapYear(int year) {
         // Проверка на високосность - Високосный должен быть кратный 4 но не кратный 100 или кратным 400
         return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
-
     }
 }
